@@ -1,0 +1,30 @@
+{
+    "schemaVersion": 1,
+    "id": "burning-x-alloy-forgery",
+    "version": "${version}",
+    "name": "Burning x Alloy Forgery",
+    "description": "Compatibility patch between Burning and Alloy Forgery",
+    "authors": [
+        "Nubìvago"
+    ],
+    "contact": {
+        "homepage": "https://modrinth.com/mod/burning-x-alloy-forgery",
+        "sources": "https://github.com/un-nubivago/burning-x-alloy-forgery"
+    },
+    "license": "MIT",
+    "icon": "assets/burning-x-alloy-forgery/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "niv.burning.x.alloyforgery.BurningXAlloyForgery"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "minecraft": ">=${minecraft_version}",
+        "java": ">=25",
+        "fabric-api": "*",
+        "burning": "*",
+        "alloy-forgery": "*"
+    }
+}
