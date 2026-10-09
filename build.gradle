@@ -31,9 +31,9 @@ dependencies {
     // Fabric API. This is technically optional, but you probably want it anyway.
     implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 
-    implementation "maven.modrinth:burning:${project.burning_version}"
-
     implementation "maven.modrinth:alloy-forgery:${project.alloy_forgery_version}"
+    implementation "maven.modrinth:burning:${project.burning_version}"
+    implementation "maven.modrinth:owo-lib:${project.owo_lib_version}"
 }
 
 processResources {

@@ -2,7 +2,7 @@
     "schemaVersion": 1,
     "id": "burning-x-alloy-forgery",
     "version": "${version}",
-    "name": "Burning x Alloy Forgery",
+    "name": "Burning ⨯ Alloy Forgery",
     "description": "Compatibility patch between Burning and Alloy Forgery",
     "authors": [
         "Nubìvago"
@@ -16,7 +16,7 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "niv.burning.x.alloyforgery.BurningXAlloyForgery"
+            "niv.burning.x.alloyforgery.BurningAlloyForgery"
         ]
     },
     "depends": {
@@ -24,7 +24,8 @@
         "minecraft": ">=${minecraft_version}",
         "java": ">=25",
         "fabric-api": "*",
+        "alloy-forgery": "*",
         "burning": "*",
-        "alloy-forgery": "*"
+        "owo-lib": "*"
     }
 }
