@@ -5,3 +5,5 @@ Compatibility patch between [**Burning**](https://github.com/un-nubivago/burning
 ![Heater Showcase](img/Showcase_1.png)
 
 _(Showcase using a **Heater** from the homonymous mod to channel heat through a **Heat Pipe** from that same mod into the frame of a **Forge**'s frame)_
+
+This mod makes every block in an **Alloy Forgery**'s **Forge** multi-block structure a heat-channelling access point to the **Forge**.
